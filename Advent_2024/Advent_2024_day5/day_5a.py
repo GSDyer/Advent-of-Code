@@ -1,5 +1,3 @@
-import time
-start_time = time.time()
 file_name = "input2024_5.txt"
 
 instructions = []
@@ -36,5 +34,3 @@ for i in range(len(approved_updates)):
     
 print(middle_sum)
 #Correct Answer 6505
-end_time = time.time()
-print(f"Run time was {end_time - start_time} seconds")

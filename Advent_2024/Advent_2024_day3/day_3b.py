@@ -31,6 +31,3 @@ for i in valid_calls:
 print(sum_multiplications)
 
 #Correct answer: 83595109
-
-#Note for future Greg, using eval is risky. You might enable malicious code.
-#Maybe better way would have been to use a map and execute mul that way
