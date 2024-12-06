@@ -30,10 +30,7 @@ def is_update_not_approved(update, instructions):
         )
 
 def reorder_update(update, instructions):
-    """This should have error handling in case of no possible solution causing
-    it to run to infinity, but due to it being advent of code it has a solution
-    and thus this method will terminate with mathematical certainty. If it
-    didn't, I should include error handling such as max number of swaps"""
+    """Should have error handling to prevent cycling"""
     while(is_update_not_approved(update, instructions)):
         for i in range(len(update) - 1):
             for j in range(i, len(update) -1):
