@@ -32,4 +32,4 @@ for y in range(len(trail_map)):
             trailhead_scores += len(seen)
 
 print(trailhead_scores)
-
+#Correct Answer: 538
